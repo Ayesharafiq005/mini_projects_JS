@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/styles.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+
+    <!-- Wrapper  -->  
+
+    <div class="h-[100vh] w-[100w] flex flex-row justify-center items-center  bg-[#344151] ">
+
+       <div class="h-[200px] w-[450px] bg-[#748caa] flex flex-row  rounded-[100px]  justify-around  overflow-hidden  ">
+ 
+         <button onclick="decrement() "> 
+            <i class="fa-solid fa-minus font-[33] text-5xl text-white "></i>
+        </button>   
+
+
+        <!-- <div class=" w-[200px] h-[200px] bg-white rounded-[100%]  shadow-5xl  flex"> 
+           <div class=" items-center ">0</div> 
+        </div> -->
+
+        <div  id="counter"  class="min-w-[200px] h-[200px] bg-white rounded-[100%]   
+        flex justify-center items-center text-8xl text-[#234d81]
+        transition delay-150 duration-500 ease-in-out  ">
+    0</div> 
+
+        <button id="plus" onclick="increment()"> 
+             <i class="fa-solid fa-plus font-[70] justify-end text-5xl
+              text-white  " ></i>
+        </button>
+
+       </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script> 
+</body>
+</html>
